@@ -26,6 +26,11 @@
 #! * Script will exit at stage where it finds first error without ex-  #
 #! ecuting further steps.                                              #
 #                                                                      #
+#! @environment: \n                                                    #
+#! Ubuntu 18.04.3 LTS \n                                               #
+#! GHDL 0.37-dev (v0.36-902-g47cb9e6b) \n                              #
+#! GTKWave Analyzer v3.3.86 (w)1999-2017 BSI                           #
+#                                                                      #
 #! @references https://ghdl.readthedocs.io/en/latest/index.html        #
 #----------------------------------------------------------------------#
 #! @note \n                                                            #
