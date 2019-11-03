@@ -5,6 +5,11 @@ Techniex Generic VHDL Code Library
 
 ### fdre.vhd
 Rising edge D-Flip Flop with multiple options to generate final implementation
+
+Mode | g_ISSR | g_SRMODE | g_ISCLKEN | g_ISSET | g_ISSRHIGH | g_ISCLKENHIGH
+---|---|---|---|---|---|---
+synchronous active high set with active high clock enable | 'yes' | 'sync' | 'yes' | '1' | '1' | '1'|
+
 1. (g_ISSR = "yes" , g_SRMODE = "sync" , g_ISCLKEN = "yes" , g_ISSET = '1' , g_ISSRHIGH = '1' , g_ISCLKENHIGH = '1') synchronous active high set with active high clock enable.
 2. (g_ISSR = "yes" , g_SRMODE = "sync" , g_ISCLKEN = "yes" , g_ISSET = '1' , g_ISSRHIGH = '1' , g_ISCLKENHIGH = '0') synchronous active high set with active low clock enable.
 3. (g_ISSR = "yes" , g_SRMODE = "sync" , g_ISCLKEN = "yes" , g_ISSET = '1' , g_ISSRHIGH = '0' , g_ISCLKENHIGH = '1') synchronous active low set with active high clock enable.
